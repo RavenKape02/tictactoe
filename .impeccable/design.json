@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-17T22:42:49Z",
+  "title": "Design System: Tic-Tac-Toe",
+  "extensions": {
+    "colorMeta": {
+      "cobalt": {
+        "role": "primary",
+        "displayName": "Lacquer Cobalt",
+        "canonical": "#2347c4",
+        "oklch": "oklch(45.9% 0.199 265.9)",
+        "tonalRamp": [
+          "#020726",
+          "#081962",
+          "#16329d",
+          "#2c52cf",
+          "#4b78f3",
+          "#7ba1fe",
+          "#b1c9ff",
+          "#e8effe"
+        ]
+      },
+      "vermilion": {
+        "role": "secondary",
+        "displayName": "Lacquer Vermilion",
+        "canonical": "#e0461f",
+        "oklch": "oklch(61.0% 0.197 34.7)",
+        "tonalRamp": [
+          "#1d0200",
+          "#480b00",
+          "#791b01",
+          "#ae2901",
+          "#dc4925",
+          "#f77c5f",
+          "#ffb4a1",
+          "#ffe9e3"
+        ]
+      },
+      "canary": {
+        "role": "tertiary",
+        "displayName": "Legal-Pad Canary",
+        "canonical": "#f6d64a",
+        "oklch": "oklch(87.9% 0.156 96.0)",
+        "tonalRamp": [
+          "#0f0b00",
+          "#2d2500",
+          "#4e4102",
+          "#736000",
+          "#998101",
+          "#bca43c",
+          "#d9ca8d",
+          "#f6efd2"
+        ]
+      },
+      "ink": {
+        "role": "tertiary",
+        "displayName": "Ballpoint Ink",
+        "canonical": "#1b2f86",
+        "oklch": "oklch(35.2% 0.147 267.7)",
+        "tonalRamp": [
+          "#04091f",
+          "#111f53",
+          "#243a86",
+          "#3d59b3",
+          "#5d7dd7",
+          "#85a2ef",
+          "#b4c8fc",
+          "#e8eefe"
+        ]
+      },
+      "rule": {
+        "role": "tertiary",
+        "displayName": "Pad Rule Blue",
+        "canonical": "#6f93d6",
+        "oklch": "oklch(66.4% 0.108 262.2)",
+        "tonalRamp": [
+          "#040b1a",
+          "#112347",
+          "#254074",
+          "#3f609e",
+          "#6082c1",
+          "#88a5dc",
+          "#b6caee",
+          "#e6efff"
+        ]
+      },
+      "margin": {
+        "role": "tertiary",
+        "displayName": "Pad Margin Red",
+        "canonical": "#d9452f",
+        "oklch": "oklch(59.9% 0.188 31.4)",
+        "tonalRamp": [
+          "#1e0100",
+          "#4b0400",
+          "#7d0f01",
+          "#b31c04",
+          "#d94c36",
+          "#f47d68",
+          "#ffb3a5",
+          "#ffe9e4"
+        ]
+      },
+      "walnut": {
+        "role": "neutral",
+        "displayName": "Walnut Desk",
+        "canonical": "#4a2c1a",
+        "oklch": "oklch(32.6% 0.053 51.0)",
+        "tonalRamp": [
+          "#110905",
+          "#332015",
+          "#563b2b",
+          "#7a5946",
+          "#9c7a67",
+          "#bc9e8e",
+          "#d9c5b9",
+          "#f6ece7"
+        ]
+      },
+      "walnut-grain": {
+        "role": "neutral",
+        "displayName": "Walnut Grain",
+        "canonical": "#24130a",
+        "oklch": "oklch(20.8% 0.033 48.2)",
+        "tonalRamp": [
+          "#0f0a07",
+          "#2e221c",
+          "#4f3e35",
+          "#715c51",
+          "#937d72",
+          "#b4a197",
+          "#d3c6c0",
+          "#f3edea"
+        ]
+      },
+      "beech": {
+        "role": "neutral",
+        "displayName": "Beech",
+        "canonical": "#e2b77c",
+        "oklch": "oklch(80.5% 0.091 74.7)",
+        "tonalRamp": [
+          "#120901",
+          "#342001",
+          "#5a3b03",
+          "#7f591c",
+          "#a17a43",
+          "#c09f72",
+          "#dcc5a8",
+          "#f8edde"
+        ]
+      },
+      "beech-deep": {
+        "role": "neutral",
+        "displayName": "Beech Deep",
+        "canonical": "#b98546",
+        "oklch": "oklch(65.5% 0.102 69.6)",
+        "tonalRamp": [
+          "#140800",
+          "#361f01",
+          "#5d3902",
+          "#86550d",
+          "#a8773b",
+          "#c69c6c",
+          "#e0c4a5",
+          "#faecdd"
+        ]
+      },
+      "beech-grain": {
+        "role": "neutral",
+        "displayName": "Beech Grain",
+        "canonical": "#9c6a38",
+        "oklch": "oklch(56.7% 0.092 64.0)",
+        "tonalRamp": [
+          "#140801",
+          "#391e00",
+          "#5f3706",
+          "#855522",
+          "#a87747",
+          "#c69c75",
+          "#e0c3aa",
+          "#faecdf"
+        ]
+      },
+      "groove": {
+        "role": "neutral",
+        "displayName": "Groove",
+        "canonical": "#3f2412",
+        "oklch": "oklch(29.1% 0.050 53.1)",
+        "tonalRamp": [
+          "#110905",
+          "#322116",
+          "#553b2b",
+          "#785a46",
+          "#9a7b67",
+          "#ba9f8e",
+          "#d8c5ba",
+          "#f6ece7"
+        ]
+      },
+      "groove-floor": {
+        "role": "neutral",
+        "displayName": "Groove Floor",
+        "canonical": "#5e3b1f",
+        "oklch": "oklch(38.7% 0.065 57.9)",
+        "tonalRamp": [
+          "#120904",
+          "#34200f",
+          "#593a22",
+          "#7d583c",
+          "#9f795d",
+          "#be9e86",
+          "#dbc4b4",
+          "#f7ece4"
+        ]
+      },
+      "chalk": {
+        "role": "neutral",
+        "displayName": "Chalk",
+        "canonical": "#fbf1e1",
+        "oklch": "oklch(96.2% 0.024 79.7)",
+        "tonalRamp": [
+          "#0d0b08",
+          "#29241d",
+          "#484136",
+          "#686052",
+          "#8a8173",
+          "#aba498",
+          "#cdc8c0",
+          "#f1eeea"
+        ]
+      },
+      "chalk-dim": {
+        "role": "neutral",
+        "displayName": "Chalk Dim",
+        "canonical": "#e6cfae",
+        "oklch": "oklch(86.5% 0.051 76.8)",
+        "tonalRamp": [
+          "#0f0a04",
+          "#2e2312",
+          "#503f26",
+          "#725e40",
+          "#937f61",
+          "#b4a289",
+          "#d3c7b7",
+          "#f3eee5"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The status line only: whose move, who won, or a draw."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "The Score heading on the pad and the New Game label."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "Score counts, tabular figures, right-aligned."
+      },
+      "score-label": {
+        "displayName": "Score Label",
+        "purpose": "Blue, Red and Draws row labels on the pad."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "The hint under the status line from 640px up."
+      },
+      "body-sm": {
+        "displayName": "Body Small",
+        "purpose": "The hint below 640px; the credit line at 1024px and up."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "The Reset scores text button."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "The credit line below 1024px."
+      }
+    },
+    "shadows": [
+      {
+        "name": "pad-on-desk",
+        "value": "0 1px 1px rgba(40, 20, 5, 0.25), 0 22px 40px -18px rgba(20, 8, 0, 0.75)",
+        "purpose": "The legal-pad score sheet lying on the desk."
+      },
+      {
+        "name": "block-rest",
+        "value": "inset 0 -5px 0 rgba(90, 50, 15, 0.28), inset 0 1px 0 rgba(255, 245, 225, 0.55), 0 14px 26px -10px rgba(15, 6, 0, 0.8)",
+        "purpose": "Beech block at rest: sanded bevel plus cast depth."
+      },
+      {
+        "name": "block-pressed",
+        "value": "inset 0 -2px 0 rgba(90, 50, 15, 0.28), inset 0 1px 0 rgba(255, 245, 225, 0.55), 0 6px 14px -8px rgba(15, 6, 0, 0.8)",
+        "purpose": "Beech block pressed 3px into the desk."
+      },
+      {
+        "name": "fallback-board",
+        "value": "0 18px 40px -12px rgba(0, 0, 0, 0.6)",
+        "purpose": "Flat beech board shown without WebGL."
+      }
+    ],
+    "motion": [
+      {
+        "name": "block-press",
+        "value": "160ms cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Transform and shadow on the beech block; filter uses 160ms ease-out. Removed under reduced motion."
+      },
+      {
+        "name": "block-press-travel",
+        "value": "translateY(3px)",
+        "purpose": "How far the beech block sinks when pressed."
+      },
+      {
+        "name": "block-hover",
+        "value": "filter: brightness(1.05)",
+        "purpose": "The only hover response on the beech block."
+      },
+      {
+        "name": "piece-drop",
+        "value": "start +2.4 units, gravity 22, restitution 0.32, settle below |v| 0.6, step cap 1/30s",
+        "purpose": "Simulated fall and damped bounce of every newly placed piece."
+      },
+      {
+        "name": "piece-tilt-settle",
+        "value": "initial 0.35 rad, decays by exp(-6t)",
+        "purpose": "The piece lands slightly tipped and rights itself."
+      },
+      {
+        "name": "piece-yaw-jitter",
+        "value": "(((i * 37) % 11) / 11 - 0.5) * 0.25 rad",
+        "purpose": "Deterministic per-cell rotation so a full board looks hand-placed."
+      },
+      {
+        "name": "win-hop-spin",
+        "value": "0.9s; lift sin(pi*p)*0.55 + 0.12 hold; spin 2*pi on ease-out cubic; emissive 0.18",
+        "purpose": "Winning three rise, turn once and glow after settling."
+      },
+      {
+        "name": "win-strike",
+        "value": "progress rate 1/0.55s, starts at 0.35 of progress (~0.19s), done at ~0.55s, ease-out cubic",
+        "purpose": "Lacquered bar painted from the first winning square to the third."
+      },
+      {
+        "name": "ease-out-cubic",
+        "value": "1 - (1 - t)^3",
+        "purpose": "Easing for the win spin and win strike."
+      },
+      {
+        "name": "camera-lean",
+        "value": "pointer x * 0.35, pointer y * 0.2, smoothing 1 - exp(-2.5 * dt)",
+        "purpose": "Camera drifts toward the pointer like leaning over the table. Fixed under reduced motion."
+      },
+      {
+        "name": "ghost-preview",
+        "value": "opacity 0.38, no shadow, no depth write, no drop",
+        "purpose": "Translucent next-player piece over the hovered or focused empty square."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "Pieces appear at rest, winners lift to 0.12 without arc or spin, strike drawn complete, camera fixed, block transition none."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "New Game Block",
+      "kind": "button",
+      "refersTo": "button-new-game",
+      "description": "Primary action. A sanded beech block; in the app its background is the procedural beech grain (256px canvas PNG set at runtime), shown here as flat beech.",
+      "html": "<button type=\"button\" class=\"ds-wood-block\">New Game</button>",
+      "css": ".ds-wood-block { font-family: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif; width: 100%; max-width: 360px; height: 3.5rem; border: 0; border-radius: 0.875rem; background-color: var(--beech, #e2b77c); background-size: 256px 256px; color: var(--groove, #3f2412); font-size: 1.125rem; line-height: 1.75rem; font-weight: 700; letter-spacing: -0.025em; cursor: pointer; box-shadow: inset 0 -5px 0 rgba(90, 50, 15, 0.28), inset 0 1px 0 rgba(255, 245, 225, 0.55), 0 14px 26px -10px rgba(15, 6, 0, 0.8); transition: transform 160ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 160ms cubic-bezier(0.16, 1, 0.3, 1), filter 160ms ease-out; } .ds-wood-block:hover { filter: brightness(1.05); } .ds-wood-block:active { transform: translateY(3px); box-shadow: inset 0 -2px 0 rgba(90, 50, 15, 0.28), inset 0 1px 0 rgba(255, 245, 225, 0.55), 0 6px 14px -8px rgba(15, 6, 0, 0.8); } .ds-wood-block:focus-visible { outline: 3px solid var(--chalk, #fbf1e1); outline-offset: 3px; } @media (prefers-reduced-motion: reduce) { .ds-wood-block { transition: none; } }"
+    },
+    {
+      "name": "Reset Scores Text Button",
+      "kind": "button",
+      "refersTo": "button-reset-scores",
+      "description": "Tertiary text button in ballpoint ink on the canary pad; disabled while every count is zero. Focus uses the global canary outline (an open gap on canary paper).",
+      "html": "<div class=\"ds-reset-wrap\"><button type=\"button\" class=\"ds-reset\">Reset scores</button><button type=\"button\" class=\"ds-reset\" disabled>Reset scores</button></div>",
+      "css": ".ds-reset-wrap { display: flex; gap: 1.5rem; padding: 0.75rem 1rem; background: var(--canary, #f6d64a); } .ds-reset { font-family: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif; background: none; border: 0; padding: 0; border-radius: 0.375rem; color: var(--ink, #1b2f86); font-size: 0.875rem; line-height: 1.25rem; font-weight: 500; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; cursor: pointer; } .ds-reset:hover { text-decoration-thickness: 2px; } .ds-reset:focus-visible { outline: 3px solid var(--canary, #f6d64a); outline-offset: 3px; } .ds-reset:disabled { opacity: 0.6; text-decoration: none; cursor: not-allowed; }"
+    },
+    {
+      "name": "Legal-Pad Score Sheet",
+      "kind": "card",
+      "refersTo": "score-pad-wide",
+      "description": "Signature component. A canary legal-pad sheet rotated -1.5deg, keeping X, O and draw counts as ballpoint tallies plus tabular numerals.",
+      "html": "<section class=\"ds-pad\"><div class=\"ds-pad-head\"><h2 class=\"ds-pad-title\">Score</h2><button type=\"button\" class=\"ds-pad-reset\">Reset scores</button></div><dl class=\"ds-pad-list\"><div class=\"ds-pad-row\"><dt><svg class=\"ds-pad-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><g stroke=\"#2347c4\" stroke-width=\"5.5\" stroke-linecap=\"round\"><path d=\"M5 5 L19 19\"/><path d=\"M19 5 L5 19\"/></g></svg>Blue</dt><dd class=\"ds-pad-tally\"><svg width=\"62\" height=\"24\" viewBox=\"0 0 62 24\" aria-hidden=\"true\" style=\"overflow:visible\"><g stroke=\"var(--ink, #1b2f86)\" stroke-width=\"2.25\" stroke-linecap=\"round\" fill=\"none\"><path d=\"M4.5 3 Q3.9 12 2.3 21\"/><path d=\"M11.5 3 Q10.9 12 8.5 20\"/><path d=\"M17.25 4 Q16.65 12 14.45 21\"/><path d=\"M23 3 Q22.4 12 20.4 19\"/><path d=\"M-2 17 L25 6\"/></g><g stroke=\"var(--ink, #1b2f86)\" stroke-width=\"2.25\" stroke-linecap=\"round\" fill=\"none\"><path d=\"M38.5 3 Q37.9 12 36.3 21\"/><path d=\"M45.5 3 Q44.9 12 42.5 20\"/></g></svg></dd><dd class=\"ds-pad-count\">7</dd></div><div class=\"ds-pad-row\"><dt><svg class=\"ds-pad-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"7.5\" fill=\"none\" stroke=\"#e0461f\" stroke-width=\"5\"/></svg>Red</dt><dd class=\"ds-pad-tally\"><svg width=\"28\" height=\"24\" viewBox=\"0 0 28 24\" aria-hidden=\"true\" style=\"overflow:visible\"><g stroke=\"var(--ink, #1b2f86)\" stroke-width=\"2.25\" stroke-linecap=\"round\" fill=\"none\"><path d=\"M4.5 3 Q3.9 12 2.3 21\"/><path d=\"M11.5 3 Q10.9 12 8.5 20\"/><path d=\"M17.25 4 Q16.65 12 14.45 21\"/></g></svg></dd><dd class=\"ds-pad-count\">3</dd></div><div class=\"ds-pad-row\"><dt>Draws</dt><dd class=\"ds-pad-tally\"><svg width=\"28\" height=\"24\" viewBox=\"0 0 28 24\" aria-hidden=\"true\" style=\"overflow:visible\"><g stroke=\"var(--ink, #1b2f86)\" stroke-width=\"2.25\" stroke-linecap=\"round\" fill=\"none\"><path d=\"M4.5 3 Q3.9 12 2.3 21\"/><path d=\"M11.5 3 Q10.9 12 8.5 20\"/></g></svg></dd><dd class=\"ds-pad-count\">2</dd></div></dl></section>",
+      "css": ".ds-pad { position: relative; box-sizing: border-box; width: 360px; max-width: 100%; margin-top: 12px; padding: 0.75rem 1.25rem 1rem 3rem; border-radius: 3px; transform: rotate(-1.5deg); font-family: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif; color: var(--ink, #1b2f86); background-color: var(--canary, #f6d64a); background-image: linear-gradient(to right, transparent 2.15rem, var(--margin, #d9452f) 2.15rem, var(--margin, #d9452f) calc(2.15rem + 1.5px), transparent calc(2.15rem + 1.5px)), repeating-linear-gradient(to bottom, transparent 0, transparent calc(2.5rem - 1px), var(--rule, #6f93d6) calc(2.5rem - 1px), var(--rule, #6f93d6) 2.5rem); background-position: 0 0, 0 0.75rem; box-shadow: 0 1px 1px rgba(40, 20, 5, 0.25), 0 22px 40px -18px rgba(20, 8, 0, 0.75); } .ds-pad::before { content: \"\"; position: absolute; inset: -6px 0 auto 0; height: 6px; border-radius: 2px 2px 0 0; background: #c9542f; } .ds-pad-head { display: flex; height: 2.5rem; align-items: center; justify-content: space-between; } .ds-pad-title { margin: 0; font-size: 1.125rem; line-height: 1.75rem; font-weight: 700; letter-spacing: -0.025em; } .ds-pad-reset { font-family: inherit; background: none; border: 0; padding: 0; color: inherit; font-size: 0.875rem; font-weight: 500; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; cursor: pointer; } .ds-pad-reset:hover { text-decoration-thickness: 2px; } .ds-pad-reset:focus-visible { outline: 3px solid var(--canary, #f6d64a); outline-offset: 3px; } .ds-pad-list { margin: 0; font-size: 0.95rem; } .ds-pad-row { display: grid; grid-template-columns: 6.25rem 1fr auto; gap: 0.75rem; height: 2.5rem; align-items: center; } .ds-pad-row dt { display: flex; align-items: center; gap: 0.5rem; font-weight: 600; } .ds-pad-row dd { margin: 0; } .ds-pad-icon { width: 1rem; height: 1rem; } .ds-pad-tally { display: flex; justify-content: flex-end; min-width: 0; overflow: hidden; } .ds-pad-count { text-align: right; font-size: 1.25rem; line-height: 1.75rem; font-weight: 700; font-variant-numeric: tabular-nums; }"
+    },
+    {
+      "name": "Status Line",
+      "kind": "custom",
+      "refersTo": "status-line",
+      "description": "The one loud element: whose move it is, who won, or a draw, in chalk display type with the piece drawn in front, and a chalk-dim hint underneath.",
+      "html": "<div class=\"ds-status-desk\"><p class=\"ds-status\"><svg class=\"ds-status-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><g stroke=\"#2347c4\" stroke-width=\"5.5\" stroke-linecap=\"round\"><path d=\"M5 5 L19 19\"/><path d=\"M19 5 L5 19\"/></g></svg><span>Blue X to play</span></p><p class=\"ds-status-hint\">Pick a square on the board.</p></div>",
+      "css": ".ds-status-desk { padding: 2rem; background: var(--walnut, #4a2c1a); font-family: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif; } .ds-status { display: flex; align-items: center; gap: 0.3em; margin: 0; color: var(--chalk, #fbf1e1); font-size: clamp(2rem, 4.2vw + 0.8rem, 4.25rem); line-height: 1.02; font-weight: 800; letter-spacing: -0.035em; text-wrap: balance; } .ds-status-icon { width: 0.8em; height: 0.8em; flex-shrink: 0; } .ds-status-hint { margin: 0.5rem 0 0; color: var(--chalk-dim, #e6cfae); font-size: 1rem; line-height: 1.5rem; }"
+    },
+    {
+      "name": "Piece Icons",
+      "kind": "chip",
+      "refersTo": "cobalt",
+      "description": "Flat drawings of the two pieces, matching the 3D pieces in colour and proportion: round-capped cobalt X, vermilion O ring.",
+      "html": "<div class=\"ds-pieces\"><svg class=\"ds-piece\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><g stroke=\"#2347c4\" stroke-width=\"5.5\" stroke-linecap=\"round\"><path d=\"M5 5 L19 19\"/><path d=\"M19 5 L5 19\"/></g></svg><svg class=\"ds-piece\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"7.5\" fill=\"none\" stroke=\"#e0461f\" stroke-width=\"5\"/></svg></div>",
+      "css": ".ds-pieces { display: inline-flex; gap: 1rem; padding: 1rem; background: var(--walnut, #4a2c1a); border-radius: 0.5rem; } .ds-piece { width: 2.5rem; height: 2.5rem; }"
+    },
+    {
+      "name": "Flat Fallback Board",
+      "kind": "custom",
+      "refersTo": "board-fallback",
+      "description": "The board when WebGL is unavailable: nine real buttons on a beech square, beech-deep cells, flat piece icons at 60% of the cell. No ghost, no motion.",
+      "html": "<div class=\"ds-board-desk\"><div class=\"ds-board\" role=\"group\" aria-label=\"Board\"><button type=\"button\" class=\"ds-cell\" aria-label=\"Row 1, column 1, Red O\"><svg class=\"ds-cell-piece\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"7.5\" fill=\"none\" stroke=\"#e0461f\" stroke-width=\"5\"/></svg></button><button type=\"button\" class=\"ds-cell\" aria-label=\"Row 1, column 2, empty\"></button><button type=\"button\" class=\"ds-cell\" aria-label=\"Row 1, column 3, Blue X\"><svg class=\"ds-cell-piece\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><g stroke=\"#2347c4\" stroke-width=\"5.5\" stroke-linecap=\"round\"><path d=\"M5 5 L19 19\"/><path d=\"M19 5 L5 19\"/></g></svg></button><button type=\"button\" class=\"ds-cell\" aria-label=\"Row 2, column 1, empty\"></button><button type=\"button\" class=\"ds-cell\" aria-label=\"Row 2, column 2, Blue X\"><svg class=\"ds-cell-piece\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><g stroke=\"#2347c4\" stroke-width=\"5.5\" stroke-linecap=\"round\"><path d=\"M5 5 L19 19\"/><path d=\"M19 5 L5 19\"/></g></svg></button><button type=\"button\" class=\"ds-cell\" aria-label=\"Row 2, column 3, empty\"></button><button type=\"button\" class=\"ds-cell\" aria-label=\"Row 3, column 1, empty\"></button><button type=\"button\" class=\"ds-cell\" aria-label=\"Row 3, column 2, empty\"></button><button type=\"button\" class=\"ds-cell\" aria-label=\"Row 3, column 3, empty\"></button></div></div>",
+      "css": ".ds-board-desk { padding: 2rem; background: var(--walnut, #4a2c1a); } .ds-board { display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 1fr); gap: 0.5rem; width: 100%; max-width: 340px; aspect-ratio: 1; margin: 0 auto; padding: 0.75rem; box-sizing: border-box; border-radius: 0.875rem; background: var(--beech, #e2b77c); box-shadow: 0 18px 40px -12px rgba(0, 0, 0, 0.6); } .ds-cell { display: grid; place-items: center; min-height: 0; border: 0; padding: 0; border-radius: 0.5rem; background: rgb(185 133 70 / 0.4); cursor: pointer; } .ds-cell:hover { background: rgb(185 133 70 / 0.6); } .ds-cell:focus-visible { outline: 3px solid var(--canary, #f6d64a); outline-offset: 2px; } .ds-cell-piece { width: 60%; height: 60%; }"
+    },
+    {
+      "name": "Credit Line",
+      "kind": "nav",
+      "refersTo": "credit-line",
+      "description": "The only navigation: the applicant credit with GitHub and Portfolio links, chalk dim on walnut, chalk on hover.",
+      "html": "<div class=\"ds-credit-desk\"><p class=\"ds-credit\">Made by Raven Caduyac · <a href=\"https://github.com/RavenKape02\">GitHub</a> · <a href=\"https://ravencaduyac.engineer\">Portfolio</a></p></div>",
+      "css": ".ds-credit-desk { padding: 1rem 1.5rem; background: var(--walnut, #4a2c1a); } .ds-credit { margin: 0; font-family: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif; color: var(--chalk-dim, #e6cfae); font-size: 0.875rem; line-height: 1.25rem; } .ds-credit a { color: inherit; text-decoration: underline; text-underline-offset: 4px; } .ds-credit a:hover { color: var(--chalk, #fbf1e1); } .ds-credit a:focus-visible { outline: 3px solid var(--canary, #f6d64a); outline-offset: 3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Toy on the Desk",
+    "overview": "The whole page is one physical scene: a sanded beech Tic-Tac-Toe board with carved dark grooves, lying on a walnut desk in warm daylight, with chunky lacquered pieces in toy primaries. The board is the interface. Players touch a square on the 3D board, a translucent ghost of their piece previews the move, and the piece falls, bounces and settles under simulated gravity. Everything else on the page is another object on the same desk: a sheet torn from a canary legal pad that keeps score in ballpoint tally marks, and a beech block cut from the same wood as the board that says New Game.\n\nDensity is low and the hierarchy is blunt. One very large status line in chalk white tells you whose move it is, who won, or that it is a draw, with a small drawing of the piece in front of it. A quiet hint sits under it. Nothing else competes. Personality comes from materials (grain, lacquer, paper, ink) and from motion that only happens because a player did something. The world rejects the category default of a flat 3x3 grid of buttons in a centred card; the flat grid exists only as the no-WebGL fallback, and even there it is cut from beech.\n\nThe DOM layer and the 3D layer share one palette (`palette.ts` mirrored by the CSS custom properties), so an SVG piece in the status line and a lacquered piece on the board read as the same object.",
+    "keyCharacteristics": [
+      "Full-bleed 3D walnut desk; the beech board is framed into whatever space the overlay leaves free.",
+      "Two player colours only: cobalt for Blue X, vermilion for Red O.",
+      "One typeface, Bricolage Grotesque, carrying hierarchy through weight and size.",
+      "Physical objects instead of cards: paper sheet, wood block, carved board.",
+      "Motion is physics and is always caused by play: drop, damped settle, winning hop and spin, a painted strike.",
+      "Reduced motion shows every end state instantly; nothing is lost but the travel."
+    ],
+    "rules": [
+      {
+        "name": "The Two Primaries Rule",
+        "body": "Cobalt means Blue X and vermilion means Red O, everywhere and only. A control, a heading or a border never borrows a player colour.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Palette Rule",
+        "body": "A colour that exists in both the scene and the DOM is the same hex in both. The SVG piece icons import the scene palette directly; the CSS custom properties repeat it by hand.",
+        "section": "colors"
+      },
+      {
+        "name": "The Chalk On Walnut Rule",
+        "body": "Text that floats on the desk is chalk (primary) or chalk dim (secondary). Text on the pad is ink. Text on wood is groove.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Family Rule",
+        "body": "Bricolage Grotesque is the only face. Hierarchy comes from weight (800 / 700 / 600 / 500 / 400) and size, not from a second family.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Count Rule",
+        "body": "Score numbers always use tabular figures so a count changing from 9 to 10 never shifts its neighbours.",
+        "section": "typography"
+      },
+      {
+        "name": "The Objects Not Cards Rule",
+        "body": "Every raised DOM element is a named desk object (paper, wood block, board) with the material to match, never a generic panel.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Still At Rest Rule",
+        "body": "At rest, shadows and positions never change. Depth changes only in response to a press.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do take every colour from the frontmatter; when a colour exists in both the scene and the DOM, use the same hex in both.",
+      "Do keep cobalt for Blue X and vermilion for Red O and nothing else.",
+      "Do make each raised element a desk object with its material: canary paper with rules (2.5rem) and a margin, beech blocks with the bevel shadow, carved wood.",
+      "Do cast DOM shadows as warm, long, soft drops with negative spread (rgba of dark brown or near-black), as in the shadow vocabulary.",
+      "Do set every text in Bricolage Grotesque; give counts tabular figures.",
+      "Do tie every animation to a player action, simulate the drop rather than tweening it, and show the end state instantly under reduced motion.",
+      "Do keep the board itself as the control, with real focusable buttons behind it and a spoken description of every move."
+    ],
+    "donts": [
+      "Don't present the board as a flat 3x3 grid of buttons in a centred card; the flat grid is only the no-WebGL fallback.",
+      "Don't use a player colour for controls, headings, borders or text.",
+      "Don't add a second typeface.",
+      "Don't use grey or cool shadows, or lift objects on hover.",
+      "Don't add idle or ambient motion (floating pieces, looping glows, auto-rotating board)."
+    ]
+  }
+}
